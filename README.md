@@ -31,7 +31,7 @@ First, clone the repository to your local machine using the following command:
 git clone https://github.com/YOUR-USERNAME/rosie-chatbot.git
 
 
-2. **Install Dependencies**
+### 2. Install Dependencies
 Navigate to the project directory and install the required dependencies using pip:
 
 bash
@@ -47,7 +47,7 @@ Edit
 pip install openai python-dotenv streamlit
 
 
-3.** Add Your OpenAI API Key**
+### 3. Add Your OpenAI API Key
 To keep your API key secure:
 
 Create a .env file in the root directory of your project.
@@ -60,7 +60,7 @@ Edit
 OPENAI_API_KEY=your-api-key-here
 Make sure NOT to share this key publicly, and do not push the .env file to GitHub. It's added to .gitignore by default.
 
-4.** Run the Chatbot Locally**
+### 4. Run the Chatbot Locally
 To run Rosie locally on your machine, use Streamlit:
 
 bash
