@@ -30,11 +30,15 @@ First, clone the repository to your local machine using the following command:
 ```bash
 git clone https://github.com/YOUR-USERNAME/rosie-chatbot.git
 
----
 
-**2. Install Dependencies**
-
-
+cd rosie-chatbot
+pip install -r requirements.txt
 
 
+pip install openai python-dotenv streamlit
+
+
+OPENAI_API_KEY=your-api-key-here
+
+streamlit run app.py
 
